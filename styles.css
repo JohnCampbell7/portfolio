@@ -91,7 +91,6 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 
-}
 .location {
   background-color: #222;
   color: orange;
@@ -118,7 +117,7 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border: 4px 10px solid #ccc;
+  border: 4px 10px #ccc;
   border-style: outset;
   border-radius: 20px;
   transition: all .5s;
@@ -127,14 +126,18 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+
+
+
+
 /*PAGE: WORK*/
 .card3 {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
-  border: 4px 10px solid #ccc;
+  border: 4px 10px #ccc;
   border-style: outset;
   border-radius: 30px;
   transition: all .5s;
@@ -142,6 +145,11 @@ header .profile-image:hover {
 .card3:hover {
   border-color: #ff99ff;
 }
+
+
+
+
+
 
 ul.skills {
   padding: 0;
